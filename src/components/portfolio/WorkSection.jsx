@@ -83,9 +83,9 @@ export default function WorkSection() {
                 alt={project.title}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               
-                <div
-                className="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity duration-500 mix-blend-multiply hidden"
-                style={{ backgroundColor: project.color }} />
+                
+
+              
               
               </div>
               <div className="absolute top-5 right-5 w-10 h-10 rounded-full bg-background/20 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
