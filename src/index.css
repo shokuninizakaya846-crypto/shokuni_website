@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base */
+    --background: 40 20% 97%;       /* off-white warm */
+    --foreground: 0 2% 26%;       /* near-black warm */
+
+    /* Cards & Popovers */
+    --card: 0 0% 100%;
+    --card-foreground: 30 10% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 10% 15%;
+
+    /* Brand accent – #F27823 orange */
+    --primary: 25 89% 54%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary – light warm grey */
+    --secondary: 0 0% 92%;
+    --secondary-foreground: 30 10% 20%;
+
+    /* Muted – slightly darker grey */
+    --muted: 40 10% 88%;
+    --muted-foreground: 30 5% 45%;
+
+    /* Accent – #E8FF70 lime-yellow */
+    --accent: 72 100% 72%;
+    --accent-foreground: 30 10% 15%;
+
+    /* Utility */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 40 10% 84%;
+    --input: 40 10% 84%;
+    --ring: 25 89% 54%;
+
+    /* Charts */
+    --chart-1: 25 89% 54%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+
+    /* Misc */
+    --radius: 0.5rem;
+    --font-heading: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-body: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+    /* Sidebar */
+    --sidebar-background: 40 20% 95%;
+    --sidebar-foreground: 30 10% 15%;
+    --sidebar-primary: 25 89% 54%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 72 100% 72%;
+    --sidebar-accent-foreground: 30 10% 15%;
+    --sidebar-border: 40 10% 84%;
+    --sidebar-ring: 25 89% 54%;
+
+    /* Brand custom tokens */
+    --ember: 25 89% 54%;          /* #F27823 */
+    --lime: 72 100% 72%;          /* #e8ff70 */
+    --obsidian: 30 10% 8%;
+    --silver: 40 10% 88%;
+  }
+
+  .dark {
+    --background: 30 10% 6%;
+    --foreground: 40 10% 90%;
+    --card: 30 10% 9%;
+    --card-foreground: 40 10% 90%;
+    --popover: 30 10% 9%;
+    --popover-foreground: 40 10% 90%;
+    --primary: 25 89% 54%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 8% 14%;
+    --secondary-foreground: 40 10% 85%;
+    --muted: 30 8% 14%;
+    --muted-foreground: 40 5% 55%;
+    --accent: 30 8% 18%;
+    --accent-foreground: 40 10% 90%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 8% 18%;
+    --input: 30 8% 18%;
+    --ring: 25 89% 54%;
+    --chart-1: 25 89% 54%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    font-weight: 300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+
+  button {
+    font-weight: 300;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom selection */
+::selection {
+  background-color: hsl(25 89% 54% / 0.3);
+  color: hsl(30 10% 15%);
+}
+
+/* Waveform edge animation */
+@keyframes waveform-pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes ripple {
+  0% { transform: scale(0.8); opacity: 0.6; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px hsl(25 89% 54% / 0.25); }
+  50% { box-shadow: 0 0 40px hsl(25 89% 54% / 0.5); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-ripple {
+  animation: ripple 3s ease-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-waveform {
+  animation: waveform-pulse 2s ease-in-out infinite;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-ripple,
+  .animate-pulse-glow,
+  .animate-waveform {
+    animation: none !important;
+  }
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
