@@ -17,7 +17,7 @@ export default function DrinkLandingLayout({ drink }) {
         className="absolute top-6 left-6 z-20 inline-flex items-center gap-2 text-washi/70 hover:text-washi transition-colors">
         
         <ArrowLeft className="w-4 h-4" />
-        <span className="text-sm">Back to taver</span>
+        <span className="text-sm">Back to home</span>
       </Link>
 
       <div className="relative z-10 text-center px-4 max-w-2xl mx-auto">
@@ -25,7 +25,7 @@ export default function DrinkLandingLayout({ drink }) {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-xs tracking-[0.3em] uppercase [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--obsidian))]">
+          className="text-xs tracking-[0.3em] uppercase [font-family:'Abril_Fatface',_system-ui] text-washi/60">
           
           Shokunin Izakaya
         </motion.span>
@@ -34,7 +34,7 @@ export default function DrinkLandingLayout({ drink }) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-          className="mt-4 font-normal text-[56px] md:text-[96px] leading-[0.9] tracking-tight [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--obsidian))]">
+          className="mt-4 font-normal text-[56px] md:text-[96px] leading-[0.9] tracking-tight [font-family:'Abril_Fatface',_system-ui] text-washi">
           
           {drink.jp}
         </motion.h1>
@@ -43,7 +43,7 @@ export default function DrinkLandingLayout({ drink }) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-5 text-sm md:text-base font-body font-light max-w-md mx-auto leading-relaxed text-[hsl(var(--sidebar-accent-foreground))]">
+          className="mt-5 text-sm md:text-base font-body font-light text-washi/70 max-w-md mx-auto leading-relaxed">
           
           {drink.blurb}
         </motion.p>
@@ -54,7 +54,7 @@ export default function DrinkLandingLayout({ drink }) {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mt-8 flex flex-col items-center gap-3">
           
-          <span className="text-3xl [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--popover-foreground))]">
+          <span className="text-3xl [font-family:'Abril_Fatface',_system-ui] text-washi">
             {drink.price}
           </span>
           <button
