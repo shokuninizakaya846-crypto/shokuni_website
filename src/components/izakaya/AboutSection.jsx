@@ -22,10 +22,10 @@ export default function AboutSection() {
 
 
           </p>
-          <div className="mt-10 inline-block px-8 py-4 rounded-full border border-border hidden">
-            <span className="font-heading text-lg text-aka">ようこそ</span>
-            <span className="ml-3 text-sm font-body text-foreground/50">Welcome</span>
-          </div>
+          
+
+
+          
         </motion.div>
       </div>
     </section>);
