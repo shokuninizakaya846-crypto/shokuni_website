@@ -14,10 +14,10 @@ export default function HeroSection() {
 
       {/* Lantern decorations */}
       <div className="absolute top-24 left-[10%] hidden md:block">
-        <div className="animate-lantern text-4xl hidden">🏮</div>
+        
       </div>
       <div className="absolute top-32 right-[12%] hidden md:block">
-        <div className="animate-lantern text-3xl hidden" style={{ animationDelay: "1s" }}>🏮</div>
+        
       </div>
 
       {/* Content */}

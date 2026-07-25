@@ -19,10 +19,10 @@ export default function Navbar() {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-washi/90 backdrop-blur-md border-b border-border" : "bg-transparent"}`}>
       <div className="px-4 md:px-10">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <a href="#" className="font-heading font-semibold text-xl tracking-tight text-foreground flex items-center gap-2 hidden">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-aka"></span>
-            職人
-          </a>
+          
+
+
+          
           <div className="flex items-center gap-2 md:gap-3">
             {links.map((link) =>
             <a
