@@ -3,7 +3,7 @@ import DrinkLandingLayout from "@/components/izakaya/DrinkLandingLayout";
 const sake = {
   name: "Sake",
   jp: "日本酒",
-  price: "$3",
+  price: "$30",
   desc: "A warm cup of junmai.",
   blurb:
     "Brewed with polished rice and pure mountain water. Served warm in a ceramic ochoko, the way the shokunin intended.",
