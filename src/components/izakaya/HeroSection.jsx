@@ -26,24 +26,24 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="mb-4"
-        >
-          <span className="text-xs font-body tracking-[0.3em] uppercase text-washi/60">Shokunin Izakaya</span>
+          className="mb-4">
+          
+          <span className="text-xs tracking-[0.3em] uppercase text-washi/60 [font-family:'Abril_Fatface',_system-ui]">SHOKUNIN IZAKAYA</span>
         </motion.div>
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-          className="font-heading font-normal text-[48px] md:text-[80px] leading-[0.95] tracking-tight text-washi"
-        >
+          className="font-normal text-[48px] md:text-[80px] leading-[0.95] tracking-tight text-washi [font-family:'Abril_Fatface',_system-ui]">
+          
           職人居酒屋
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-5 text-sm md:text-base font-body font-light text-washi/70 max-w-md mx-auto leading-relaxed"
-        >
+          className="mt-5 text-sm md:text-base font-body font-light text-washi/70 max-w-md mx-auto leading-relaxed">
+          
           A craftsman's tavern. Where every drink is poured with intention.
         </motion.p>
         <motion.a
@@ -51,11 +51,11 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-10 inline-flex items-center gap-2 text-washi/50 hover:text-aka transition-colors"
-        >
+          className="mt-10 inline-flex items-center gap-2 text-washi/50 hover:text-aka transition-colors">
+          
           <ArrowDown className="w-4 h-4 animate-float" />
         </motion.a>
       </div>
-    </section>
-  );
+    </section>);
+
 }

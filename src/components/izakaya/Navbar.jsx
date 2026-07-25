@@ -10,32 +10,32 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { label: "About", href: "#about" },
-    { label: "Channels", href: "#channels" },
-    { label: "Buy me a drink", href: "#drink" },
-  ];
+  { label: "About", href: "#about" },
+  { label: "Channels", href: "#channels" },
+  { label: "Buy me a drink", href: "#drink" }];
+
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-washi/90 backdrop-blur-md border-b border-border" : "bg-transparent"}`}>
       <div className="px-4 md:px-10">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <a href="#" className="font-heading font-semibold text-xl tracking-tight text-foreground flex items-center gap-2">
+          <a href="#" className="font-heading font-semibold text-xl tracking-tight text-foreground flex items-center gap-2 hidden">
             <span className="inline-block w-2.5 h-2.5 rounded-full bg-aka"></span>
             職人
           </a>
           <div className="flex items-center gap-2 md:gap-3">
-            {links.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-xs md:text-sm font-body text-foreground/80 hover:text-aka transition-colors duration-300 px-2 md:px-3 py-1.5 rounded-full hover:bg-aka/5"
-              >
+            {links.map((link) =>
+            <a
+              key={link.href}
+              href={link.href}
+              className="text-xs md:text-sm font-body text-foreground/80 hover:text-aka transition-colors duration-300 px-2 md:px-3 py-1.5 rounded-full hover:bg-aka/5">
+              
                 {link.label}
               </a>
-            ))}
+            )}
           </div>
         </div>
       </div>
-    </nav>
-  );
+    </nav>);
+
 }
