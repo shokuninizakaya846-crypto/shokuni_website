@@ -11,6 +11,7 @@ import Privacy from './pages/Privacy';
 import Accessibility from './pages/Accessibility';
 import RefundPolicy from './pages/RefundPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
+import DrinkLanding from './pages/DrinkLanding';
 // Add page imports here
 
 const AuthenticatedApp = () => {
@@ -40,6 +41,9 @@ const AuthenticatedApp = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/sake" element={<DrinkLanding />} />
+      <Route path="/draft-beer" element={<DrinkLanding />} />
+      <Route path="/yuzu-highball" element={<DrinkLanding />} />
       <Route path="/privacy" element={<Privacy />} />
       <Route path="/accessibility" element={<Accessibility />} />
       <Route path="/refund-policy" element={<RefundPolicy />} />
