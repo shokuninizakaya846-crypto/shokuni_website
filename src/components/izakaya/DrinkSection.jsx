@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { CupSoda, Beer, Wine } from "lucide-react";
 
 const drinks = [
-{ icon: CupSoda, name: "Sake", slug: "sake", price: "$3", desc: "" },
+{ icon: CupSoda, name: "Sake", slug: "sake", price: "$30", desc: "" },
 { icon: Beer, name: "Draft Beer", slug: "draft-beer", price: "$5", desc: "" },
 { icon: Wine, name: "Yuzu Highball", slug: "yuzu-highball", price: "$7", desc: "" }];
 
