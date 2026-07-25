@@ -8,7 +8,7 @@ const sake = {
   blurb:
     "Brewed with polished rice and pure mountain water. Served warm in a ceramic ochoko, the way the shokunin intended.",
   image:
-    "https://images.unsplash.com/photo-1530171704280-0c1a1b6b6a6a?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1561535893-bb7a98c7ee45?auto=format&fit=crop&w=1600&q=80",
 };
 
 export default function SakeLanding() {
