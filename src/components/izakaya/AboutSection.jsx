@@ -14,13 +14,13 @@ export default function AboutSection() {
           <h2 className="mt-4 font-heading font-normal text-[32px] md:text-[48px] leading-tight tracking-tight text-foreground">
             一杯、一期一会
           </h2>
-          <p className="mt-6 text-sm md:text-base font-body font-light text-foreground/70 leading-relaxed">
-            Shokunin Izakaya is born from the spirit of the craftsman — the <em>shokunin</em> who
-            devotes a lifetime to mastering one thing. Here, that one thing is hospitality.
+          <p className="mt-6 text-sm md:text-base font-body font-light text-foreground/70 leading-relaxed">專為職場新人與骨幹打造的避風港 💼 圍爐|吹水|分享真實職場生態|拒絕所有職場 PUA 🙅‍♂️ 亂世之中，一齊向上、自我增值 ✨
+
+
           </p>
           <p className="mt-4 text-sm md:text-base font-body font-light text-foreground/70 leading-relaxed">
-            Each cup is poured slowly. Each guest is welcomed like family. No rush, no noise —
-            just good drink, good food, and good company under the lantern light.
+
+
           </p>
           <div className="mt-10 inline-block px-8 py-4 rounded-full border border-border hidden">
             <span className="font-heading text-lg text-aka">ようこそ</span>
