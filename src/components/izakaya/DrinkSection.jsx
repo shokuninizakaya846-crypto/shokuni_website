@@ -4,7 +4,7 @@ import { CupSoda, Beer, Wine } from "lucide-react";
 const drinks = [
 { icon: CupSoda, name: "Sake", slug: "sake", price: "$30", desc: "" },
 { icon: Beer, name: "Draft Beer", slug: "draft-beer", price: "$45", desc: "" },
-{ icon: Wine, name: "Yuzu Highball", slug: "yuzu-highball", price: "$7", desc: "" }];
+{ icon: Wine, name: "Yuzu Highball", slug: "yuzu-highball", price: "$70", desc: "" }];
 
 
 export default function DrinkSection() {
@@ -23,7 +23,7 @@ export default function DrinkSection() {
           <h2 className="mt-4 font-heading font-normal text-[32px] md:text-[48px] leading-tight tracking-tight text-foreground">杯中酒影，微醺相伴
 
           </h2>
-          <p className="mt-4 text-sm font-body font-light text-foreground/60 max-w-md mx-auto">
+          <p className="mt-4 text-sm font-body font-light text-foreground/60 max-w-md mx-auto hidden">
             Enjoying the tavern? Send a little something to keep the lanterns lit.
           </p>
         </motion.div>
