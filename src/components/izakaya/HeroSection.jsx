@@ -34,7 +34,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-          className="font-normal text-[48px] md:text-[80px] leading-[0.95] tracking-tight [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--popover-foreground))]">
+          className="font-normal text-[48px] md:text-[80px] leading-[0.95] tracking-tight text-[hsl(var(--popover-foreground))] [font-family:'Great_Vibes',_system-ui]">
           
           職人居酒屋
         </motion.h1>
