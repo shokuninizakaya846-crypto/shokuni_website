@@ -62,9 +62,37 @@ export default function DrinkLandingLayout({ drink }) {
             toast.success(`ありがとうございます! You bought a ${drink.name}.`)
             }
             className="px-8 py-3 rounded-full bg-aka text-white text-sm font-medium tracking-wide hover:bg-aka/90 transition-colors">
-            
+
             Buy me this drink
           </button>
+        </motion.div>
+
+        {/* Link + QR code section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="mt-10 flex flex-col items-center gap-4"
+        >
+          {drink.link && (
+            <a
+              href={drink.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-body text-washi/80 underline underline-offset-4 hover:text-washi transition-colors break-all"
+            >
+              {drink.link}
+            </a>
+          )}
+          {drink.qrImage && (
+            <div className="w-32 h-32 rounded-xl overflow-hidden border border-washi/20 bg-white/90 flex items-center justify-center">
+              <img
+                src={drink.qrImage}
+                alt="QR code"
+                className="w-full h-full object-contain"
+              />
+            </div>
+          )}
         </motion.div>
       </div>
     </section>);
