@@ -9,7 +9,7 @@ const sake = {
     "Brewed with polished rice and pure mountain water. Served warm in a ceramic ochoko, the way the shokunin intended.",
   image:
     "https://images.unsplash.com/photo-1561535893-bb7a98c7ee45?auto=format&fit=crop&w=1600&q=80",
-  link: "https://payme-cashout-secure.hsbc.com.hk/paycode.html?page=paycode$30", // TODO: paste your payment / donation link here
+  link: "https://payme-cashout-secure.hsbc.com.hk/paycode.html?page=paycode$0", // TODO: paste your payment / donation link here
   qrImage: "", // TODO: paste your QR code image URL here
 };
 
