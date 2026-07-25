@@ -25,7 +25,7 @@ export default function DrinkLandingLayout({ drink }) {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-xs tracking-[0.3em] uppercase [font-family:'Abril_Fatface',_system-ui] text-washi/60">
+          className="text-xs tracking-[0.3em] uppercase [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--sidebar-background))]">
           
           Shokunin Izakaya
         </motion.span>
@@ -34,7 +34,7 @@ export default function DrinkLandingLayout({ drink }) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-          className="mt-4 font-normal text-[56px] md:text-[96px] leading-[0.9] tracking-tight [font-family:'Abril_Fatface',_system-ui] text-washi">
+          className="mt-4 font-normal text-[56px] md:text-[96px] leading-[0.9] tracking-tight [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--card))]">
           
           {drink.jp}
         </motion.h1>
@@ -43,7 +43,7 @@ export default function DrinkLandingLayout({ drink }) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-5 text-sm md:text-base font-body font-light text-washi/70 max-w-md mx-auto leading-relaxed">
+          className="mt-5 text-sm md:text-base font-body font-light max-w-md mx-auto leading-relaxed text-[hsl(var(--card))]">
           
           {drink.blurb}
         </motion.p>
@@ -54,7 +54,7 @@ export default function DrinkLandingLayout({ drink }) {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mt-8 flex flex-col items-center gap-3">
           
-          <span className="text-3xl [font-family:'Abril_Fatface',_system-ui] text-washi">
+          <span className="text-3xl [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--popover))]">
             {drink.price}
           </span>
           <button
