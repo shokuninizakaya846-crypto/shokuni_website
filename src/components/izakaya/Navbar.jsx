@@ -11,7 +11,6 @@ export default function Navbar() {
 
   const links = [
   { label: "About", href: "#about" },
-  { label: "", href: "#channels" },
   { label: "Buy me a drink", href: "#drink" }];
 
 
