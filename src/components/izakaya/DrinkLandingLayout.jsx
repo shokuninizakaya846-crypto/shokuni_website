@@ -1,52 +1,9 @@
-import { useParams, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
+import { toast } from "sonner";
 
-const drinkData = {
-  sake: {
-    name: "Sake",
-    jp: "日本酒",
-    price: "$3",
-    desc: "A warm cup of junmai.",
-    blurb:
-      "Brewed with polished rice and pure mountain water. Served warm in a ceramic ochoko, the way the shokunin intended.",
-    image:
-      "https://images.unsplash.com/photo-1530171704280-0c1a1b6b6a6a?auto=format&fit=crop&w=1600&q=80",
-  },
-  "draft-beer": {
-    name: "Draft Beer",
-    jp: "生ビール",
-    price: "$5",
-    desc: "Kirin on tap.",
-    blurb:
-      "Ice-cold Kirin poured to a perfect two-finger head. Crisp, clean, and best enjoyed at the counter.",
-    image:
-      "https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=1600&q=80",
-  },
-  "yuzu-highball": {
-    name: "Yuzu Highball",
-    jp: "柚子ハイボール",
-    price: "$7",
-    desc: "House special.",
-    blurb:
-      "Japanese whisky, soda, and a twist of fresh yuzu. Bright, citrusy, and dangerously smooth — the tavern's signature pour.",
-    image:
-      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1600&q=80",
-  },
-};
-
-export default function DrinkLanding() {
-  const { slug } = useParams();
-  const drink = drinkData[slug];
-
-  if (!drink) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-background">
-        <p className="text-foreground/60">This drink is not on the menu.</p>
-      </div>
-    );
-  }
-
+export default function DrinkLandingLayout({ drink }) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-foreground">
       <div
@@ -102,9 +59,7 @@ export default function DrinkLanding() {
           </span>
           <button
             onClick={() =>
-              import("sonner").then((m) =>
-                m.toast.success(`ありがとうございます! You bought a ${drink.name}.`)
-              )
+              toast.success(`ありがとうございます! You bought a ${drink.name}.`)
             }
             className="px-8 py-3 rounded-full bg-aka text-white text-sm font-medium tracking-wide hover:bg-aka/90 transition-colors"
           >
