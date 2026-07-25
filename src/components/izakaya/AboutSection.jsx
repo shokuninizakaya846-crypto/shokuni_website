@@ -8,8 +8,8 @@ export default function AboutSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
+          transition={{ duration: 0.6 }}>
+          
           <span className="text-xs font-body tracking-[0.2em] uppercase text-foreground/50">About</span>
           <h2 className="mt-4 font-heading font-normal text-[32px] md:text-[48px] leading-tight tracking-tight text-foreground">
             一杯、一期一会
@@ -22,12 +22,12 @@ export default function AboutSection() {
             Each cup is poured slowly. Each guest is welcomed like family. No rush, no noise —
             just good drink, good food, and good company under the lantern light.
           </p>
-          <div className="mt-10 inline-block px-8 py-4 rounded-full border border-border">
+          <div className="mt-10 inline-block px-8 py-4 rounded-full border border-border hidden">
             <span className="font-heading text-lg text-aka">ようこそ</span>
             <span className="ml-3 text-sm font-body text-foreground/50">Welcome</span>
           </div>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 }

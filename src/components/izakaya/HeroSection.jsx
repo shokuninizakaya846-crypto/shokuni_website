@@ -42,7 +42,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-5 text-sm md:text-base font-body font-light text-washi/70 max-w-md mx-auto leading-relaxed">
+          className="mt-5 text-sm md:text-base font-body font-light text-washi/70 max-w-md mx-auto leading-relaxed hidden">
           
           A craftsman's tavern. Where every drink is poured with intention.
         </motion.p>
