@@ -11,7 +11,7 @@ export default function AboutSection() {
           transition={{ duration: 0.6 }}>
           
           <span className="text-xs font-body tracking-[0.2em] uppercase text-foreground/50">About</span>
-          <h2 className="mt-4 font-heading font-normal text-[32px] md:text-[48px] leading-tight tracking-tight text-foreground">一期一会
+          <h2 className="mt-4 font-heading font-normal text-[32px] md:text-[48px] leading-tight tracking-tight text-foreground">一期一會
 
           </h2>
           <p className="mt-6 text-sm md:text-base font-body font-light text-foreground/70 leading-relaxed">專為職場新人與骨幹打造的避風港 💼 圍爐|吹水|分享真實職場生態|拒絕所有職場 PUA 🙅‍♂️ 亂世之中，一齊向上、自我增值 ✨
