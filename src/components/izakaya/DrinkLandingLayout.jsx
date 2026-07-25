@@ -66,7 +66,7 @@ export default function DrinkLandingLayout({ drink }) {
             }}
             className="px-8 py-3 rounded-full bg-aka text-white text-sm font-medium tracking-wide hover:bg-aka/90 transition-colors">
 
-            請按此，並手動輸入金額
+            {drink.cta || "請按此，並手動輸入金額"}
           </button>
         </motion.div>
 
