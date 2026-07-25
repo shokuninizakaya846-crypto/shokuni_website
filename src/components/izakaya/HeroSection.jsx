@@ -28,7 +28,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6 }}
           className="mb-4">
           
-          <span className="text-xs tracking-[0.3em] uppercase [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--popover-foreground))]">SHOKUNIN IZAKAYA</span>
+          <span className="text-xs tracking-[0.3em] uppercase [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--obsidian))]">SHOKUNIN IZAKAYA</span>
         </motion.div>
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
