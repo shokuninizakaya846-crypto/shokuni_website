@@ -9,7 +9,7 @@ const yuzuHighball = {
     "Japanese whisky, soda, and a twist of fresh yuzu. Bright, citrusy, and dangerously smooth — the tavern's signature pour.",
   image:
     "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1600&q=80",
-  link: "", // TODO: paste your payment / donation link here
+  link: "https://payme-cashout-secure.hsbc.com.hk/paycode.html?page=paycode$0", // TODO: paste your payment / donation link here
   qrImage: "", // TODO: paste your QR code image URL here
 };
 
