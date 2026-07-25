@@ -28,7 +28,7 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-xs md:text-sm hover:text-aka transition-colors duration-300 px-2 md:px-3 py-1.5 rounded-full hover:bg-aka/5 text-[hsl(var(--obsidian))] [font-family:'Abril_Fatface',_system-ui]">
+              className="hover:text-aka transition-colors duration-300 px-2 md:px-3 py-1.5 rounded-full hover:bg-aka/5 text-[hsl(var(--obsidian))] [font-family:'Abril_Fatface',_system-ui] text-base md:text-base">
               
                 {link.label}
               </a>

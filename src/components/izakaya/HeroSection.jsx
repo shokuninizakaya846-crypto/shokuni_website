@@ -17,7 +17,7 @@ export default function HeroSection() {
         <div className="animate-lantern text-4xl">🏮</div>
       </div>
       <div className="absolute top-32 right-[12%] hidden md:block">
-        <div className="animate-lantern text-3xl" style={{ animationDelay: "1s" }}>🏮</div>
+        <div className="animate-lantern text-3xl hidden" style={{ animationDelay: "1s" }}>🏮</div>
       </div>
 
       {/* Content */}
@@ -28,13 +28,13 @@ export default function HeroSection() {
           transition={{ duration: 0.6 }}
           className="mb-4">
           
-          <span className="text-xs tracking-[0.3em] uppercase text-washi/60 [font-family:'Abril_Fatface',_system-ui]">SHOKUNIN IZAKAYA</span>
+          <span className="text-xs tracking-[0.3em] uppercase [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--popover-foreground))]">SHOKUNIN IZAKAYA</span>
         </motion.div>
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-          className="font-normal text-[48px] md:text-[80px] leading-[0.95] tracking-tight text-washi [font-family:'Abril_Fatface',_system-ui]">
+          className="font-normal text-[48px] md:text-[80px] leading-[0.95] tracking-tight [font-family:'Abril_Fatface',_system-ui] text-[hsl(var(--popover-foreground))]">
           
           職人居酒屋
         </motion.h1>
