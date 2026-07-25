@@ -58,9 +58,12 @@ export default function DrinkLandingLayout({ drink }) {
             {drink.price}
           </span>
           <button
-            onClick={() =>
-            toast.success(`ありがとうございます! You bought a ${drink.name}.`)
-            }
+            onClick={() => {
+              if (drink.link) {
+                window.open(drink.link, "_blank", "noopener,noreferrer");
+              }
+              toast.success(`ありがとうございます! You bought a ${drink.name}.`);
+            }}
             className="px-8 py-3 rounded-full bg-aka text-white text-sm font-medium tracking-wide hover:bg-aka/90 transition-colors">
 
             Buy me this drink
