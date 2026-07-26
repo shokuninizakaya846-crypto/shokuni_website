@@ -3,7 +3,7 @@ import { CupSoda, Beer, Wine } from "lucide-react";
 
 const drinks = [
 { icon: Beer, name: "Draft Beer", slug: "draft-beer", price: "$30", desc: "" },
-{ icon: Wine, name: "Yuzu Highball\n\u3010\u719F\u5BA2\u8D0A\u52A9\u3011", slug: "yuzu-highball", price: "$45", desc: "" },
+{ icon: Wine, name: "Yuzu Highball", slug: "yuzu-highball", price: "$45", desc: "" },
 { icon: CupSoda, name: "Sake", slug: "sake", price: "$70", desc: "" }];
 
 
