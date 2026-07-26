@@ -6,7 +6,7 @@ const sake = {
   price: "$70",
   desc: "A warm cup of junmai.",
   blurb:
-    "Buy me this drink 即可加入私密圍爐群。隨時入嚟宣洩職場負能量、匿名吐苦水，有人聽你講真話。",
+    "享有Highball酒友 所有權益 + 不定期酒友聚會",
   image:
     "https://images.unsplash.com/photo-1561535893-bb7a98c7ee45?auto=format&fit=crop&w=1600&q=80",
   link: "https://buy.stripe.com/00wbJ33Eogaqh2L3TE8Vi00", // TODO: paste your payment / donation link here
