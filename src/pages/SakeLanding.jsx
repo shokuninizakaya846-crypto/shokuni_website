@@ -3,7 +3,7 @@ import DrinkLandingLayout from "@/components/izakaya/DrinkLandingLayout";
 const sake = {
   name: "Sake",
   jp: "日本酒",
-  price: "$70",
+  price: "$70/year",
   desc: "A warm cup of junmai.",
   blurb:
     "享有Highball酒友所有權益 + 1對1為你拆解職場問題＋不定期酒友聚會",

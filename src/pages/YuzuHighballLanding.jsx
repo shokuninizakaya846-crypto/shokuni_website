@@ -3,7 +3,7 @@ import DrinkLandingLayout from "@/components/izakaya/DrinkLandingLayout";
 const yuzuHighball = {
   name: "Yuzu Highball",
   jp: "柚子ハイボール",
-  price: "$45",
+  price: "$45/year",
   desc: "House special.",
   blurb:
     "入群 + 每週解鎖 1 篇「會員專屬深層文章」（AI 攻略，極度真實嘅職場政治拆解、爆料案例）",

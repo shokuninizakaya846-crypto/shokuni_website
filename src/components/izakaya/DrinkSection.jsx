@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { CupSoda, Beer, Wine } from "lucide-react";
 
 const drinks = [
-{ icon: Beer, name: "Draft Beer", slug: "draft-beer", price: "$30", desc: "" },
-{ icon: Wine, name: "Yuzu Highball", slug: "yuzu-highball", price: "$45", desc: "" },
-{ icon: CupSoda, name: "Sake", slug: "sake", price: "$70", desc: "" }];
+{ icon: Beer, name: "Draft Beer", slug: "draft-beer", price: "$30/year", desc: "" },
+{ icon: Wine, name: "Yuzu Highball", slug: "yuzu-highball", price: "$45/year", desc: "" },
+{ icon: CupSoda, name: "Sake", slug: "sake", price: "$70/year", desc: "" }];
 
 
 export default function DrinkSection() {

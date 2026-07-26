@@ -3,7 +3,7 @@ import DrinkLandingLayout from "@/components/izakaya/DrinkLandingLayout";
 const draftBeer = {
   name: "Draft Beer",
   jp: "生ビール",
-  price: "$30",
+  price: "$30/year",
   desc: "Kirin on tap.",
   blurb:
     "加入 VIP 私密圍爐群。隨時入嚟宣洩職場負能量、匿名吐苦水，有人聽你講真話。",
