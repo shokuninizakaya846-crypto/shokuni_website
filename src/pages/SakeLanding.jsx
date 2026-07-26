@@ -9,7 +9,7 @@ const sake = {
     "享有Highball酒友 所有權益 + 不定期酒友聚會",
   image:
     "https://images.unsplash.com/photo-1561535893-bb7a98c7ee45?auto=format&fit=crop&w=1600&q=80",
-  link: "https://buy.stripe.com/00wbJ33Eogaqh2L3TE8Vi00", // TODO: paste your payment / donation link here
+  link: "https://buy.stripe.com/eVqeVffn6bUaeUD4XI8Vi02",
   cta: "Click here and Join membership",
   qrImage: "", // TODO: paste your QR code image URL here
 };
