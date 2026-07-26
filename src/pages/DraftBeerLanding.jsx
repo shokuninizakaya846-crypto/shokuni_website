@@ -9,7 +9,7 @@ const draftBeer = {
     "加入 VIP 私密圍爐群。隨時入嚟宣洩職場負能量、匿名吐苦水，有人聽你講真話。",
   image:
     "https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=1600&q=80",
-  link: "https://buy.stripe.com/bJe4gB8YI6zQ3bV0Hs8Vi01", // TODO: paste your payment / donation link here
+  link: "https://buy.stripe.com/00wbJ33Eogaqh2L3TE8Vi00",
   cta: "Click here and Join membership",
   qrImage: "", // TODO: paste your QR code image URL here
 };
