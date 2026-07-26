@@ -10,7 +10,7 @@ const draftBeer = {
   image:
     "https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=1600&q=80",
   link: "https://buy.stripe.com/bJe4gB8YI6zQ3bV0Hs8Vi01", // TODO: paste your payment / donation link here
-  cta: "Click here and Buy me this drink",
+  cta: "Click here and Join membership",
   qrImage: "", // TODO: paste your QR code image URL here
 };
 

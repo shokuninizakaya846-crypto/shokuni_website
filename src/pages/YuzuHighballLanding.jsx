@@ -10,7 +10,7 @@ const yuzuHighball = {
   image:
     "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1600&q=80",
   link: "https://buy.stripe.com/eVqeVffn6bUaeUD4XI8Vi02", // TODO: paste your payment / donation link here
-  cta: "Click here and Buy me this drink",
+  cta: "Click here and Join membership",
   qrImage: "", // TODO: paste your QR code image URL here
 };
 
