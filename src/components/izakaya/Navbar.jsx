@@ -11,7 +11,7 @@ export default function Navbar() {
 
   const links = [
   { label: "About", href: "#about" },
-  { label: "Buy me a drink", href: "#drink" }];
+  { label: "Join membership", href: "#drink" }];
 
 
   return (
