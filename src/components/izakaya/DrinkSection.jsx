@@ -19,7 +19,7 @@ export default function DrinkSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12">
           
-          <span className="text-xs font-body tracking-[0.2em] uppercase text-foreground/50">Buy me a drink</span>
+          <span className="text-xs font-body tracking-[0.2em] uppercase text-foreground/50">Join membership</span>
           <h2 className="mt-4 font-heading font-normal text-[32px] md:text-[48px] leading-tight tracking-tight text-foreground">杯中酒影，微醺相伴
 
           </h2>
