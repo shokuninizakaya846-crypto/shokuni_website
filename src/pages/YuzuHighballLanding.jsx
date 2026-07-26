@@ -3,7 +3,7 @@ import DrinkLandingLayout from "@/components/izakaya/DrinkLandingLayout";
 const yuzuHighball = {
   name: "Yuzu Highball",
   jp: "柚子ハイボール",
-  price: "$70",
+  price: "$45",
   desc: "House special.",
   blurb:
     "Japanese whisky, soda, and a twist of fresh yuzu. Bright, citrusy, and dangerously smooth — the tavern's signature pour.",
